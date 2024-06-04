@@ -1,12 +1,15 @@
 package org.example;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import com.opencsv.CSVReader;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.FileReader;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.List;
 
 public class OasisCsvToJsonConverter {
 
@@ -89,13 +92,22 @@ public class OasisCsvToJsonConverter {
         shellOasisQuestionnaire.put("effectivePeriod", effectivePeriod);
         shellOasisQuestionnaire.put("code", code);
 
-        System.out.println();
-        System.out.println();
-        System.out.println(shellOasisQuestionnaire);
-        System.out.println();
-        System.out.println();
+        savePrettyPrintJsonToFile(shellOasisQuestionnaire);
 
         return shellOasisQuestionnaire;
+    }
+
+    private void savePrettyPrintJsonToFile(JSONObject jsonObject) {
+        try {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            File jsonFile = new File("src/main/java/org/example/OasisE.json");
+            Writer writer = new BufferedWriter(new java.io.FileWriter(jsonFile));
+            gson.toJson(JsonParser.parseString(jsonObject.toString()), writer);
+            writer.flush();
+        }
+        catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     private ArrayList<OasisQuestion> parseQuestions(String fileName) {

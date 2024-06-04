@@ -1,15 +1,5 @@
 package org.example;
 
-import com.opencsv.CSVReader;
-import netscape.javascript.JSObject;
-import org.json.JSONObject;
-
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Begin OasisCsvToJsonConverter main method");
