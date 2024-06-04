@@ -1,9 +1,6 @@
 package org.example;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
+import com.google.gson.*;
 import com.opencsv.CSVReader;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -21,17 +18,19 @@ public class OasisCsvToJsonConverter {
         ArrayList<OasisQuestion> OasisQuestions = parseQuestions(fileName);
 
         //create a single .json object (questionnaire) that will hold info about the OASIS questionnaire and a list of questions
-        JSONObject questionnaire = generateQuestionnaire(OasisQuestions);
-
-        //todo: write to json file
-    }
-
-    private JSONObject generateQuestionnaire(ArrayList<OasisQuestion> OasisQuestions) {
         JSONObject questionnaire = createShellOasisQuestionnaire();
 
-        //todo: populate the "items" field, ie put the questions in the questionnaire
+        //loop through list of questions, convert each question to the corresponding JSONObject to go in the item JSONArray
+        JSONArray itemJsonArray = new JSONArray();
+        for (OasisQuestion oasisQuestion : OasisQuestions) {
+            itemJsonArray.put(oasisQuestion.toItem());
+        }
 
-        return questionnaire;
+        //after building item JSONArray, add item to the questionnaire
+        questionnaire.put("item", itemJsonArray);
+
+        //now that the questionnaire JSONObject is fully populated, save it to a file
+        savePrettyPrintJsonToFile(questionnaire);
     }
 
     private JSONObject createShellOasisQuestionnaire() {

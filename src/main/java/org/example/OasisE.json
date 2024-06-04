@@ -7,6 +7,1224 @@
       "value": "Outcome and Assessment Information Set"
     }
   ],
+  "item": [
+    {
+      "linkId": "Item ID",
+      "text": "Question Text"
+    },
+    {
+      "linkId": "A1005",
+      "text": "Ethnicity. Are you of Hispanic, Latino/a, or Spanish origin?"
+    },
+    {
+      "linkId": "A1010",
+      "text": "Race. What is your race?"
+    },
+    {
+      "linkId": "A1110",
+      "text": "Language"
+    },
+    {
+      "linkId": "A1110A",
+      "text": "What is your preferred language?"
+    },
+    {
+      "linkId": "A1110B",
+      "text": "Do you need or want an interpreter to communicate with a doctor or health care staff?"
+    },
+    {
+      "linkId": "A1250",
+      "text": "Transportation (from NACHC). Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed from daily living? "
+    },
+    {
+      "linkId": "A2120",
+      "text": "Provision of Current Reconciled Medication List to Subsequent Provider at Transfer. At the time of transfer to another provider, did your agency provide the patient\u0027s current reconciled medication list to the subsequent provider?"
+    },
+    {
+      "linkId": "A2121",
+      "text": "Provision of Current Reconciled Medication List to Subsequent Provider at Discharge. At the time of discharge to another provider, did your agency provide the patient\u0027s current reconciled medication list to the subsequent provider?"
+    },
+    {
+      "linkId": "A2122",
+      "text": "Route of Current Reconciled Medication List Transmission to Subsequent Provider. "
+    },
+    {
+      "linkId": "A2123",
+      "text": "Provision of Current Reconciled Medication List to Patient at Discharge. At the time of discharge, did your facility provide the patient\u0027s current reconciled medication list to the patient, family and/or caregiver?"
+    },
+    {
+      "linkId": "A2124",
+      "text": "Route of Current Reconciled Medication List Transmission to Patient. Indicate the route(s) of transmission of the current reconciled medication list to the patient/family/caregiver."
+    },
+    {
+      "linkId": "B0200",
+      "text": "Hearing. Ability to hear (with hearing aid or hearing appliances if normally used)"
+    },
+    {
+      "linkId": "B1000",
+      "text": "Vision. Ability to see in adequate light (with glasses or other visual appliances)"
+    },
+    {
+      "linkId": "B1300",
+      "text": "Health Literacy. How often do you need to have someone help you when you read instructions, pamphlets, or other written material from your doctor or pharmacy?"
+    },
+    {
+      "linkId": "C0100",
+      "text": "Should Brief Interview for Mental Status be Conducted? Attempt to conduct interview with all patients"
+    },
+    {
+      "linkId": "C0200",
+      "text": "Repetition of Three Words - Ask patient: \"I am going to say three words for you to remember. Please repeat the words after I have said all three. The words are: sock, blue, and bed. Now tell me the three words.\" Number of words repeated after first attempt"
+    },
+    {
+      "linkId": "C0300",
+      "text": "Temporal Orientation (orientation to year, month, and day)"
+    },
+    {
+      "linkId": "C0300A",
+      "text": "Ask patient: \"Please tell me what year it is right now.\" Able to report correct year"
+    },
+    {
+      "linkId": "C0300B",
+      "text": "Ask patient: \"What month are we in right now?\" Able to report correct month"
+    },
+    {
+      "linkId": "C0300C",
+      "text": "Ask patient: \"What day of the week is today?\" Able to report correct day of the week"
+    },
+    {
+      "linkId": "C0400",
+      "text": "Recall. Ask patient: \"Let\u0027s go back to an earlier question. What were those three words that I asked you to repeat?\" If unable to remember a word, give cue (something to wear; a color; a piece of furniture) for that word."
+    },
+    {
+      "linkId": "C0400A",
+      "text": "Able to recall \"sock\""
+    },
+    {
+      "linkId": "C0400B",
+      "text": "Able to recall \"blue\""
+    },
+    {
+      "linkId": "C0400C",
+      "text": "Able to recall \"bed\""
+    },
+    {
+      "linkId": "C0500",
+      "text": "BIMS Summary Score. Add scores for C0200-C0400 and fill in total score (00-15). Enter 99 if the patient was unable to complete the interview"
+    },
+    {
+      "linkId": "C1310",
+      "text": "Signs and Symptoms of Delirium (from CAM©)"
+    },
+    {
+      "linkId": "C1310A",
+      "text": "Acute Onset Mental Status Change. Is there evidence of an acute change in mental status from the patient\u0027s baseline?"
+    },
+    {
+      "linkId": "C1310B",
+      "text": "Inattention - Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?"
+    },
+    {
+      "linkId": "C1310C",
+      "text": "Disorganized Thinking - Was the patient\u0027s thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
+    },
+    {
+      "linkId": "C1310D",
+      "text": "Altered Level of Consciousness - Did the patient have altered level of consciousness, as indicated by any of the following criteria? vigilant - startled easily to any sound or touch, lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, stuporous - very difficult to arouse and keep aroused for the interview, comatose - could not be aroused"
+    },
+    {
+      "linkId": "D0150",
+      "text": "Patient Mood Interview (PHQ-2 to 9). Say to patient: \"Over the last 2 weeks, have you been bothered by any of the following problems?\""
+    },
+    {
+      "linkId": "D0150_1",
+      "text": "Symptom Presence"
+    },
+    {
+      "linkId": "D0150_2",
+      "text": "Symptom Frequency"
+    },
+    {
+      "linkId": "D0150A1",
+      "text": "Little interest or pleasure in doing things - Symptom Presence"
+    },
+    {
+      "linkId": "D0150A2",
+      "text": "Little interest of pleasure in doing things - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150B1",
+      "text": "Feeling down, depressed, or hopeless - Symptom Presence"
+    },
+    {
+      "linkId": "D0150B2",
+      "text": "Feeling down, depressed, or hopeless - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150C1",
+      "text": "Trouble falling or staying asleep, or sleeping too much - Symptom Presence"
+    },
+    {
+      "linkId": "D0150C2",
+      "text": "Trouble falling or staying asleep, or sleeping too much - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150D1",
+      "text": "Feeling tired or having little energy - Symptom Presence"
+    },
+    {
+      "linkId": "D0150D2",
+      "text": "Feeling tired or having little energy - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150E1",
+      "text": "Poor appetite or overeating - Symptom Presence"
+    },
+    {
+      "linkId": "D0150E2",
+      "text": "Poor appetite or overeating - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150F1",
+      "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down - Symptom Presence"
+    },
+    {
+      "linkId": "D0150F2",
+      "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150G1",
+      "text": "Trouble concentrating on things, such as reading the newspaper or watching television - Symptom Presence"
+    },
+    {
+      "linkId": "D0150G2",
+      "text": "Trouble concentrating on things, such as reading the newspaper or watching television - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150H1",
+      "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual - Symptom Presence"
+    },
+    {
+      "linkId": "D0150H2",
+      "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual - Symptom Frequency"
+    },
+    {
+      "linkId": "D0150I1",
+      "text": "Thoughts that you would be better off dead, or of hurting yourself in some way - Symptom Presence"
+    },
+    {
+      "linkId": "D0150I2",
+      "text": "Thoughts that you would be better off dead, or of hurting yourself in some way - Symptom Frequency"
+    },
+    {
+      "linkId": "D0160",
+      "text": "Total Severity Score"
+    },
+    {
+      "linkId": "D0700",
+      "text": "Social Isolation. How often do you feel lonely or isolated from those around you?"
+    },
+    {
+      "linkId": "GG0100",
+      "text": "Prior Functioning: Everyday Activities. Indicate the patient\u0027s usual ability with everyday activities prior to the current illness, exacerbation, or injury"
+    },
+    {
+      "linkId": "GG0100A",
+      "text": "Self-Care: Code the patient\u0027s need for assistance with bathing, dressing, using the toilet, and eating prior to the current illness, exacerbation, or injury."
+    },
+    {
+      "linkId": "GG0100B",
+      "text": "Indoor Mobility (Ambulation): Code the patient\u0027s need for assistance with walking from room to room (with or without a device such as cane, crutch, or walker) prior to the current illness, exacerbation, or injury."
+    },
+    {
+      "linkId": "GG0100C",
+      "text": "Stairs: Code the patient\u0027s need for assistance with internal or external stairs (with or without a device such as cane, crutch or walker) prior to the current illness, exacerbation, or injury."
+    },
+    {
+      "linkId": "GG0100D",
+      "text": "Functional Cognition: Code the patient\u0027s need for assistance with planning regular tasks, such as shopping or remembering to take medication prior to the current illness, exacerbation, or injury."
+    },
+    {
+      "linkId": "GG0110",
+      "text": "Prior Device Use. Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury: Check all that apply"
+    },
+    {
+      "linkId": "GG0130",
+      "text": "Self-Care"
+    },
+    {
+      "linkId": "GG0130_1",
+      "text": "Self-Care. Code the patient\u0027s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/ROC, code the reason."
+    },
+    {
+      "linkId": "GG0130_2",
+      "text": "Self-Care. Code the patient\u0027s discharge goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code discharge goal(s)."
+    },
+    {
+      "linkId": "GG0130_3",
+      "text": "Self-Care. Code the patient\u0027s usual performance at discharge for each activity using the 6-point scale. If any activity was not attempted at discharge, code the reason."
+    },
+    {
+      "linkId": "GG0130_4",
+      "text": "Self-Care. Code the patient\u0027s usual performance at Follow-Up for each activity using the 6-point scale.  If activity was not attempted at Follow-Up code the reason."
+    },
+    {
+      "linkId": "GG0130A1",
+      "text": "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130A2",
+      "text": "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130A3",
+      "text": "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130A4",
+      "text": "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the patient. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0130B1",
+      "text": "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130B2",
+      "text": "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130B3",
+      "text": "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130B4",
+      "text": "Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0130C1",
+      "text": "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130C2",
+      "text": "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130C3",
+      "text": "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130C4",
+      "text": "Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0130E1",
+      "text": "Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130E2",
+      "text": "Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130E3",
+      "text": "Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130E4",
+      "text": "Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of back and hair). Does not include transferring in/out of tub/shower."
+    },
+    {
+      "linkId": "GG0130F1",
+      "text": "Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130F2",
+      "text": "Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130F3",
+      "text": "Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130F4",
+      "text": "Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable."
+    },
+    {
+      "linkId": "GG0130G1",
+      "text": "Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130G2",
+      "text": "Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130G3",
+      "text": "Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130G4",
+      "text": "Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include footwear"
+    },
+    {
+      "linkId": "GG0130H1",
+      "text": "Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable. - Admission Performance"
+    },
+    {
+      "linkId": "GG0130H2",
+      "text": "Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0130H3",
+      "text": "Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0130H4",
+      "text": "Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is appropriate for safe mobility; including fasteners, if applicable."
+    },
+    {
+      "linkId": "GG0170",
+      "text": "Mobility"
+    },
+    {
+      "linkId": "GG0170_1",
+      "text": "Mobility. Code the patient\u0027s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/ROC, code the reason."
+    },
+    {
+      "linkId": "GG0170_2",
+      "text": "Mobility. Code the patient\u0027s discharge goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code discharge goal(s)."
+    },
+    {
+      "linkId": "GG0170_3",
+      "text": "Mobility. Code the patient\u0027s usual performance at discharge for each activity using the 6-point scale. If an activity was not attempted at discharge, code the reason."
+    },
+    {
+      "linkId": "GG0170_4",
+      "text": "Mobility. Code the patient\u0027s usual performance at Follow-up for each activity using the 6-point scale. If activity was not attempted at Follow-up code the reason."
+    },
+    {
+      "linkId": "GG0170A1",
+      "text": "Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170A2",
+      "text": "Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170A3",
+      "text": "Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170A4",
+      "text": "Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170B1",
+      "text": "Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170B2",
+      "text": "Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170B3",
+      "text": "Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170B4",
+      "text": "Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170C1",
+      "text": "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170C2",
+      "text": "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170C3",
+      "text": "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170C4",
+      "text": "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170D1",
+      "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170D2",
+      "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170D3",
+      "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170D4",
+      "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170E1",
+      "text": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Admission Performance"
+    },
+    {
+      "linkId": "GG0170E2",
+      "text": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170E3",
+      "text": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170E4",
+      "text": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170F1",
+      "text": "Toilet transfer: The ability to get on and off a toilet or commode. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170F2",
+      "text": "Toilet transfer: The ability to get on and off a toilet or commode. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170F3",
+      "text": "Toilet transfer: The ability to get on and off a toilet or commode. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170F4",
+      "text": "Toilet transfer: The ability to get on and off a toilet or commode. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170G1",
+      "text": "Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the ability to open/close door or fasten seat belt. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170G2",
+      "text": "Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the ability to open/close door or fasten seat belt. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170G3",
+      "text": "Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the ability to open/close door or fasten seat belt. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170I1",
+      "text": "Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170I2",
+      "text": "Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170I3",
+      "text": "Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170I4",
+      "text": "Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170J1",
+      "text": "Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170J2",
+      "text": "Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170J3",
+      "text": "Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170J4",
+      "text": "Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170K1",
+      "text": "Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170K2",
+      "text": "Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170K3",
+      "text": "Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170L1",
+      "text": "Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170L2",
+      "text": "Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170L3",
+      "text": "Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170L4",
+      "text": "Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170M1",
+      "text": "1 step (curb): The ability to go up and down a curb or up and down one step. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170M2",
+      "text": "1 step (curb): The ability to go up and down a curb or up and down one step. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170M3",
+      "text": "1 step (curb): The ability to go up and down a curb or up and down one step. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170M4",
+      "text": "1 step (curb): The ability to go up and down a curb or up and down one step. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170N1",
+      "text": "4 steps: The ability to go up and down four steps with or without a rail. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170N2",
+      "text": "4 steps: The ability to go up and down four steps with or without a rail. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170N3",
+      "text": "4 steps: The ability to go up and down four steps with or without a rail. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170N4",
+      "text": "4 steps: The ability to go up and down four steps with or without a rail. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170O1",
+      "text": "12 steps: The ability to go up and down 12 steps with or without a rail. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170O2",
+      "text": "12 steps: The ability to go up and down 12 steps with or without a rail. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170O3",
+      "text": "12 steps: The ability to go up and down 12 steps with or without a rail. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170P1",
+      "text": "Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170P2",
+      "text": "Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170P3",
+      "text": "Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170Q1",
+      "text": "Does the patient use a wheelchair and/or scooter? - Admission"
+    },
+    {
+      "linkId": "GG0170Q3",
+      "text": "Does the patient use a wheelchair and/or scooter? - Discharge"
+    },
+    {
+      "linkId": "GG0170Q4",
+      "text": "Does the patient use a wheelchair and/or scooter? - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170R1",
+      "text": "Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170R2",
+      "text": "Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170R3",
+      "text": "Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170R4",
+      "text": "Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and make two turns. - Follow-up Performance"
+    },
+    {
+      "linkId": "GG0170RR1",
+      "text": "Indicate the type of wheelchair or scooter used. - Admission"
+    },
+    {
+      "linkId": "GG0170RR3",
+      "text": "Indicate the type of wheelchair or scooter used. - Discharge"
+    },
+    {
+      "linkId": "GG0170S1",
+      "text": "Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or similar space. - Admission Performance"
+    },
+    {
+      "linkId": "GG0170S2",
+      "text": "Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or similar space. - Discharge Goal"
+    },
+    {
+      "linkId": "GG0170S3",
+      "text": "Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or similar space. - Discharge Performance"
+    },
+    {
+      "linkId": "GG0170SS1",
+      "text": "Indicate the type of wheelchair or scooter used. - Admission"
+    },
+    {
+      "linkId": "GG0170SS3",
+      "text": "Indicate the type of wheelchair or scooter used. - Discharge"
+    },
+    {
+      "linkId": "J0510",
+      "text": "Pain Effect on Sleep. Ask patient: \"Over the past 5 days, how much of the time has pain made it hard for you to sleep at night?\""
+    },
+    {
+      "linkId": "J0520",
+      "text": "Pain Interference with Therapy Activities. Ask patient: \"Over the past 5 days, how often have you limited your participation in rehabilitation therapy sessions due to pain?\""
+    },
+    {
+      "linkId": "J0530",
+      "text": "Pain Interference with Day-to-Day Activities. Ask patient: \"Over the past 5 days, how often have you limited your day-to-day activities (excluding rehabilitation therapy sessions) because of pain?\""
+    },
+    {
+      "linkId": "J1800",
+      "text": "Has the patient had any falls since SOC/ROC, whichever is more recent?"
+    },
+    {
+      "linkId": "J1900",
+      "text": "Number of Falls Since SOC/ROC, whichever is most recent"
+    },
+    {
+      "linkId": "J1900A",
+      "text": "No injury: No evidence of any injury is noted on physical assessment by the nurse or primary care clinician; no complaints of pain or injury by the patient; no change in the patient\u0027s behavior is noted after the fall."
+    },
+    {
+      "linkId": "J1900B",
+      "text": "Injury (except major): skin tears, abrasions, lacerations, superficial bruises, hematomas and sprains; or any fall-related injury that causes the patient to complain of pain"
+    },
+    {
+      "linkId": "J1900C",
+      "text": "Major injury: Bone fractures, joint dislocations, closed head injuries with altered consciousness, subdural hematoma"
+    },
+    {
+      "linkId": "K0520",
+      "text": "Nutritional Approaches"
+    },
+    {
+      "linkId": "K0520_1",
+      "text": "Check all of the following nutritional approaches that apply on {admission}"
+    },
+    {
+      "linkId": "K0520_4",
+      "text": "Check all of the nutritional approaches that were received in the last 7 days"
+    },
+    {
+      "linkId": "K0520_5",
+      "text": "Check all of the nutritional approaches that were being received at discharge"
+    },
+    {
+      "linkId": "M0010",
+      "text": "CMS Certification Number (CCN)"
+    },
+    {
+      "linkId": "M0014",
+      "text": "Branch State"
+    },
+    {
+      "linkId": "M0016",
+      "text": "Branch ID Number"
+    },
+    {
+      "linkId": "M0018",
+      "text": "National Provider Identifier (NPI) for the attending physician who has signed the plan of care"
+    },
+    {
+      "linkId": "M0020",
+      "text": "Patient ID Number"
+    },
+    {
+      "linkId": "M0030",
+      "text": "Start of Care Date"
+    },
+    {
+      "linkId": "M0032",
+      "text": "Resumption of Care Date"
+    },
+    {
+      "linkId": "M0040",
+      "text": "Patient Name"
+    },
+    {
+      "linkId": "M0040_A",
+      "text": "First name."
+    },
+    {
+      "linkId": "M0040_B",
+      "text": "Middle initial"
+    },
+    {
+      "linkId": "M0040_C",
+      "text": "Last name"
+    },
+    {
+      "linkId": "M0040_D",
+      "text": "Suffix"
+    },
+    {
+      "linkId": "M0050",
+      "text": "Patient State of Residence"
+    },
+    {
+      "linkId": "M0060",
+      "text": "Patient ZIP Code"
+    },
+    {
+      "linkId": "M0063",
+      "text": "Medicare Number"
+    },
+    {
+      "linkId": "M0064",
+      "text": "Social Security Number"
+    },
+    {
+      "linkId": "M0065",
+      "text": "Medicaid Number"
+    },
+    {
+      "linkId": "M0066",
+      "text": "Birth Date"
+    },
+    {
+      "linkId": "M0069",
+      "text": "Gender"
+    },
+    {
+      "linkId": "M0080",
+      "text": "Discipline of Person Completing Assessment"
+    },
+    {
+      "linkId": "M0090",
+      "text": "Date Assessment Completed"
+    },
+    {
+      "linkId": "M0100",
+      "text": "This Assessment is Currently Being Completed for the Following Reason"
+    },
+    {
+      "linkId": "M0102",
+      "text": "Date of Physician-ordered Start of Care (Resumption of Care): If the physician indicated a specific start of care (resumption of care) date when the patient was referred for home health services, record the date specified."
+    },
+    {
+      "linkId": "M0104",
+      "text": "Date of Referral. Indicate the date that the written or verbal referral for initiation or resumption of care was received by the HHA."
+    },
+    {
+      "linkId": "M0110",
+      "text": "Episode Timing: Is the Medicare home health payment episode for which this assessment will define a case mix group an \"early\" episode or a \"later\" episode in the patient\u0027s current sequence of adjacent Medicare home health payment episodes?"
+    },
+    {
+      "linkId": "M0150",
+      "text": "Current Payment Sources for Home Care. Check all that apply"
+    },
+    {
+      "linkId": "M0150_specify",
+      "text": "Current Payment Source - Other (specify)"
+    },
+    {
+      "linkId": "M0906",
+      "text": "Discharge/Transfer/Death Date: Enter the date of the discharge, transfer, or death (at home) of the patient."
+    },
+    {
+      "linkId": "M1000",
+      "text": "From which of the following Inpatient Facilities was the patient discharged within the past 14 days? Check all that apply"
+    },
+    {
+      "linkId": "M1000_specify",
+      "text": "Discharge Facility- Other (specify)"
+    },
+    {
+      "linkId": "M1005",
+      "text": "Inpatient Discharge Date (most recent)"
+    },
+    {
+      "linkId": "M1021",
+      "text": "Primary Diagnosis.  (Sequencing of diagnoses should reflect the seriousness of each condition and support the disciplines and services provided)"
+    },
+    {
+      "linkId": "M1021_A2_ICD",
+      "text": "Primary Diagnosis"
+    },
+    {
+      "linkId": "M1021_A2_SEV",
+      "text": "Primary Symptom Control Rating"
+    },
+    {
+      "linkId": "M1023",
+      "text": "Other Diagnoses. (Sequencing of diagnoses should reflect the seriousness of each condition and support the disciplines and services provided)"
+    },
+    {
+      "linkId": "M1023_B2_ICD",
+      "text": "Other Diagnosis b."
+    },
+    {
+      "linkId": "M1023_B2_SEV",
+      "text": "Symptom Control Rating b."
+    },
+    {
+      "linkId": "M1023_C2_ICD",
+      "text": "Other Diagnosis c."
+    },
+    {
+      "linkId": "M1023_C2_SEV",
+      "text": "Symptom Control Rating c."
+    },
+    {
+      "linkId": "M1023_D2_ICD",
+      "text": "Other Diagnosis d."
+    },
+    {
+      "linkId": "M1023_D2_SEV",
+      "text": "Symptom Control Rating d."
+    },
+    {
+      "linkId": "M1023_E2_ICD",
+      "text": "Other Diagnosis e."
+    },
+    {
+      "linkId": "M1023_E2_SEV",
+      "text": "Symptom Control Rating e."
+    },
+    {
+      "linkId": "M1023_F2_ICD",
+      "text": "Other Diagnosis f."
+    },
+    {
+      "linkId": "M1023_F2_SEV",
+      "text": "Symptom Control Rating f."
+    },
+    {
+      "linkId": "M1028",
+      "text": "Active Diagnoses - Comorbidities and Co-existing Conditions: Check all that apply. See OASIS Guidance Manual for a complete list of relevant ICD-10 codes."
+    },
+    {
+      "linkId": "M1033",
+      "text": "Risk for Hospitalization: Which of the following signs or symptoms characterize this patient as at risk for hospitalization? Check all that apply"
+    },
+    {
+      "linkId": "M1041",
+      "text": "Influenza Vaccine Data Collection Period: Does this episode of care (SOC/ROC to Transfer/Discharge) include any dates on or between October 1 and March 31?"
+    },
+    {
+      "linkId": "M1046",
+      "text": "Influenza Vaccine Received: Did the patient receive the influenza vaccine for this year\u0027s flu season?"
+    },
+    {
+      "linkId": "M1060",
+      "text": "Height and Weight. While measuring, if the number is X.1-X.4 round down, X.5 or greater round up"
+    },
+    {
+      "linkId": "M1060_A",
+      "text": "Height (in inches). Record most recent height measure since the most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1060_B",
+      "text": "Weight (in pounds). Base weight on most recent measure in last 30 days; measure weight consistently, according to standard agency practice (for example, in a.m. after voiding, before meal, with shoes off, etc.)"
+    },
+    {
+      "linkId": "M1100",
+      "text": "Patient Living Situation: Which of the following best describes the patient\u0027s residential circumstance and availability of assistance? (Check one box only.)"
+    },
+    {
+      "linkId": "M1306",
+      "text": "Does this patient have at least one Unhealed Pressure Ulcer/Injury at Stage 2 or Higher or designated as Unstageable? (Excludes Stage 1 pressure injuries and all healed pressure ulcers/injuries)"
+    },
+    {
+      "linkId": "M1307",
+      "text": "The Oldest Stage 2 Pressure Ulcer that is present at discharge: (Excludes healed Stage 2 Pressure Ulcers)"
+    },
+    {
+      "linkId": "M1307_DT",
+      "text": "Record date pressure ulcer first identified"
+    },
+    {
+      "linkId": "M1311",
+      "text": "Current Number of Unhealed Pressure Ulcers/Injuries at Each Stage - Admission"
+    },
+    {
+      "linkId": "M1311_A1",
+      "text": "Number of Stage 2 pressure ulcers"
+    },
+    {
+      "linkId": "M1311_A2",
+      "text": "Number of these Stage 2 pressure ulcers that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1311_B1",
+      "text": "Number of Stage 3 pressure ulcers"
+    },
+    {
+      "linkId": "M1311_B2",
+      "text": "Number of these Stage 3 pressure ulcers that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1311_C1",
+      "text": "Number of Stage 4 pressure ulcers"
+    },
+    {
+      "linkId": "M1311_C2",
+      "text": "Number of these Stage 4 pressure ulcers that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1311_D1",
+      "text": "Number of unstageable pressure ulcers/injuries due to non-removable dressing/device"
+    },
+    {
+      "linkId": "M1311_D2",
+      "text": "Number of these unstageable pressure ulcers/injuries that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1311_E1",
+      "text": "Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar"
+    },
+    {
+      "linkId": "M1311_E2",
+      "text": "Number of these unstageable pressure ulcers that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1311_F1",
+      "text": "Number of unstageable pressure injuries presenting as deep tissue injury"
+    },
+    {
+      "linkId": "M1311_F2",
+      "text": "Number of these unstageable pressure injuries that were present at most recent SOC/ROC - enter how many were noted at the time of most recent SOC/ROC"
+    },
+    {
+      "linkId": "M1322",
+      "text": "Current Number of Stage 1 Pressure Injuries. Intact skin with non-blanchable redness of a localized area usually over a bony prominence. Darkly pigmented skin may not have a visible blanching; in dark skin tones only it may appear with persistent blue or purple hues."
+    },
+    {
+      "linkId": "M1324",
+      "text": "Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable. Excludes pressure ulcer/injury that cannot be staged due to a non-removable dressing/device, coverage of wound bed by slough and/or eschar, or deep tissue injury."
+    },
+    {
+      "linkId": "M1330",
+      "text": "Does this patient have a Stasis Ulcer?"
+    },
+    {
+      "linkId": "M1332",
+      "text": "Current Number of Stasis Ulcer(s) that are Observable"
+    },
+    {
+      "linkId": "M1334",
+      "text": "Status of Most Problematic Stasis Ulcer that is Observable"
+    },
+    {
+      "linkId": "M1340",
+      "text": "Does this patient have a Surgical Wound?"
+    },
+    {
+      "linkId": "M1342",
+      "text": "Status of Most Problematic Surgical Wound that is Observable"
+    },
+    {
+      "linkId": "M1400",
+      "text": "When is the patient dyspneic or noticeably Short of Breath?"
+    },
+    {
+      "linkId": "M1600",
+      "text": "Has this patient been treated for a Urinary Tract Infection in the past 14 days?"
+    },
+    {
+      "linkId": "M1610",
+      "text": "Urinary Incontinence or Urinary Catheter Presence"
+    },
+    {
+      "linkId": "M1620",
+      "text": "Bowel Incontinence Frequency"
+    },
+    {
+      "linkId": "M1630",
+      "text": "Ostomy for Bowel Elimination. Does this patient have an ostomy for bowel elimination that (within the last 14 days): a) was related to an inpatient facility stay; or b) necessitated a change in medical or treatment regimen?"
+    },
+    {
+      "linkId": "M1700",
+      "text": "Cognitive Functioning: Patient\u0027s current (day of assessment) level of alertness, orientation, comprehension, concentration, and immediate memory for simple commands."
+    },
+    {
+      "linkId": "M1710",
+      "text": "When Confused. Reported or Observed Within the Last 14 Days."
+    },
+    {
+      "linkId": "M1720",
+      "text": "When Anxious. Reported or Observed Within the Last 14 Days."
+    },
+    {
+      "linkId": "M1740",
+      "text": "Cognitive, Behavioral, and Psychiatric symptoms that are demonstrated at least once a week (Reported or Observed). Check all that apply"
+    },
+    {
+      "linkId": "M1745",
+      "text": "Frequency of Disruptive Behavior Symptoms (Reported or Observed). Any physical, verbal, or other disruptive/dangerous symptoms that are injurious to self or others or jeopardize personal safety."
+    },
+    {
+      "linkId": "M1800",
+      "text": "Grooming. Current ability to tend safely to personal hygiene needs (specifically: washing face and hands, hair care, shaving or make up, teeth or denture care, or fingernail care)."
+    },
+    {
+      "linkId": "M1810",
+      "text": "Current Ability to Dress Upper Body safely (with or without dressing aids) including undergarments, pullovers, front-opening shirts and blouses, managing zippers, buttons and snaps."
+    },
+    {
+      "linkId": "M1820",
+      "text": "Current Ability to Dress Lower Body safely (with or without dressing aids) including undergarments, slacks, socks or nylons, shoes."
+    },
+    {
+      "linkId": "M1830",
+      "text": "Bathing. Current ability to wash entire body safely. Excludes grooming (washing face, washing hands, and shampooing hair)."
+    },
+    {
+      "linkId": "M1840",
+      "text": "Toilet Transferring. Current ability to get to and from the toilet or bedside commode safely and transfer on and off toilet/commode."
+    },
+    {
+      "linkId": "M1845",
+      "text": "Toileting Hygiene. Current ability to maintain perineal hygiene safely, adjust clothes and/or incontinence pads before and after using toilet, commode, bedpan, urinal. If managing ostomy, includes cleaning area around stoma, but not managing equipment."
+    },
+    {
+      "linkId": "M1850",
+      "text": "Transferring: Current ability to move safely from bed to chair, or ability to turn and position self in bed if patient is bedfast."
+    },
+    {
+      "linkId": "M1860",
+      "text": "Ambulation/Locomotion. Current ability to walk safely, once in a standing position, or use a wheelchair, once in in a seated position, on a variety of surfaces."
+    },
+    {
+      "linkId": "M1870",
+      "text": "Feeding or Eating. Current ability to feed self meals and snacks safely. Note: This refers only to the process of eating, chewing, and swallowing, not preparing the food to be eaten."
+    },
+    {
+      "linkId": "M2001",
+      "text": "Drug Regimen Review. Did a complete drug regimen review identify potential clinically significant medication issues?"
+    },
+    {
+      "linkId": "M2003",
+      "text": "Medication Follow-up. Did the agency contact a physician (or physician-designee) by midnight of the next calendar day and complete prescribed/recommended actions in response to the identified potential clinically significant medication issues?"
+    },
+    {
+      "linkId": "M2005",
+      "text": "Medication Intervention. Did the agency contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the SOC/ROC?"
+    },
+    {
+      "linkId": "M2010",
+      "text": "Patient/Caregiver High-Risk Drug Education: Has the patient/caregiver received instruction on special precautions for all high-risk medications (such as hypoglycemics, anticoagulants, etc.) and how and when to report problems that may occur?"
+    },
+    {
+      "linkId": "M2016",
+      "text": "Patient/Caregiver Drug Education Intervention: At the time of, or at any time since the most recent SOC/ROC assessment, was the patient/caregiver instructed by agency staff or other health care provider to monitor the effectiveness of drug therapy, adverse drug reactions, and significant side effects, and how and when to report problems that may occur?"
+    },
+    {
+      "linkId": "M2020",
+      "text": "Management of Oral Medications: Patient\u0027s current ability to prepare and take all oral medications reliably and safely, including administration of the correct dosage at the appropriate times/intervals. Excludes injectable and IV medications. (NOTE: This refers to ability, not compliance or willingness.)"
+    },
+    {
+      "linkId": "M2030",
+      "text": "Management of Injectable Medications: Patient\u0027s current ability to prepare and take all prescribed injectable medications reliably and safely, including administration of correct dosage at the appropriate times/intervals. Excludes IV medications."
+    },
+    {
+      "linkId": "M2102",
+      "text": "Types and Sources of Assistance. Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff."
+    },
+    {
+      "linkId": "M2102_A",
+      "text": "ADL assistance (for example, transfer/ambulation, bathing, dressing, toileting, eating/feeding)"
+    },
+    {
+      "linkId": "M2102_C",
+      "text": "Medication administration (for example, oral, inhaled or injectable)"
+    },
+    {
+      "linkId": "M2102_D",
+      "text": "Medical procedures/treatments (for example, changing wound dressing, home exercise program)"
+    },
+    {
+      "linkId": "M2102_F",
+      "text": "Supervision and safety (for example, due to cognitive impairment)"
+    },
+    {
+      "linkId": "M2200",
+      "text": "Therapy Need. In the home health plan of care for the Medicare payment episode for which this assessment will define a case mix group, what is the indicated need for therapy visits (total of reasonable and necessary physical, occupational, and speech-language pathology visits combined)? Enter zero [\"000\"] if no therapy visits indicated."
+    },
+    {
+      "linkId": "M2301",
+      "text": "Emergent Care: At the time of or at any time since the most recent SOC/ROC assessment has the patient utilized a hospital emergency department (includes holding/observation status)?"
+    },
+    {
+      "linkId": "M2310",
+      "text": "Reason for Emergent Care: For what reason(s) did the patient seek and/or receive emergent care (with or without hospitalization)? (Check all that apply)"
+    },
+    {
+      "linkId": "M2401",
+      "text": "Intervention Synopsis: At the time of or at any time since the most recent SOC/ROC assessment, were the following interventions BOTH included in the physician-ordered plan of care AND implemented? (Check only one box in each row)"
+    },
+    {
+      "linkId": "M2401_B",
+      "text": "Falls prevention interventions"
+    },
+    {
+      "linkId": "M2401_C",
+      "text": "Depression intervention(s) such as medication, referral for other treatment, or a monitoring plan for current treatment"
+    },
+    {
+      "linkId": "M2401_D",
+      "text": "Intervention(s) to monitor and mitigate pain"
+    },
+    {
+      "linkId": "M2401_E",
+      "text": "Intervention(s) to prevent pressure ulcers"
+    },
+    {
+      "linkId": "M2401_F",
+      "text": "Pressure ulcer treatment based on principles of moist wound healing"
+    },
+    {
+      "linkId": "M2410",
+      "text": "To which Inpatient Facility has the patient been admitted?"
+    },
+    {
+      "linkId": "M2420",
+      "text": "Discharge Disposition: Where is the patient after discharge from your agency? Choose only one answer"
+    },
+    {
+      "linkId": "N0415",
+      "text": "High-Risk Drug Classes: Use and Indication"
+    },
+    {
+      "linkId": "N0415_1",
+      "text": "Check if the patient is taking any medications by pharmacological classification, not how it is used, in the following classes"
+    },
+    {
+      "linkId": "N0415_2",
+      "text": "High-Risk Drug Classes: Use and Indication - Indication noted"
+    },
+    {
+      "linkId": "O0110",
+      "text": "Special Treatments, Procedures, and Programs. Check all of the following treatments, procedures, and programs that apply."
+    },
+    {
+      "linkId": "O0110_a",
+      "text": "Special Treatments, Procedures, and Programs - On Admission"
+    },
+    {
+      "linkId": "O0110_c",
+      "text": "Special Treatments, Procedures, and Programs - At Discharge"
+    }
+  ],
   "approvalDate": "2019-04-05",
   "code": [
     {

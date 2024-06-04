@@ -1,5 +1,7 @@
 package org.example;
 
+import org.json.JSONObject;
+
 public class OasisQuestion {
 
     private String assessmentInstrument;
@@ -31,6 +33,16 @@ public class OasisQuestion {
             responseText = csvRow[10];
             copyrightIndicator = csvRow[11];
         }
+    }
+
+    public JSONObject toItem() {
+        JSONObject item = new JSONObject();
+
+        item.put("linkId", itemID);
+        item.put("text", questionText);
+        //todo: finish putting things
+
+        return item;
     }
 
     public String getAssessmentInstrument() {
