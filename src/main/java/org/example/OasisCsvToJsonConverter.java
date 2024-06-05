@@ -114,6 +114,7 @@ public class OasisCsvToJsonConverter {
         ArrayList<OasisQuestion> OasisQuestions = new ArrayList<OasisQuestion>();
         try {
             CSVReader csvReader = new CSVReader(new FileReader(fileName));
+            csvReader.readNext(); //call readNext() once before loop starts to skip the first line (header) in csv file
             String[] values = null;
             while ((values = csvReader.readNext()) != null) {
                 OasisQuestions.add(new OasisQuestion(values));

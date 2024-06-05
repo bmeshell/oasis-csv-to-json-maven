@@ -10,13 +10,6 @@
   "item": [
     {
       "repeats": false,
-      "linkId": "Section Name/Item ID",
-      "prefix": "Item ID",
-      "readOnly": false,
-      "text": "Question Text"
-    },
-    {
-      "repeats": false,
       "linkId": "Section A. Administrative Information /A1005",
       "prefix": "A1005",
       "readOnly": false,
