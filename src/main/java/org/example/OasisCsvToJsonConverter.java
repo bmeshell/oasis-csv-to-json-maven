@@ -99,7 +99,7 @@ public class OasisCsvToJsonConverter {
     private void savePrettyPrintJsonToFile(JSONObject jsonObject) {
         try {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            File jsonFile = new File("src/main/java/org/example/OasisE.json");
+            File jsonFile = new File("src/main/java/org/example/Questionnaire-OASIS-E-012023.json");
             Writer writer = new BufferedWriter(new java.io.FileWriter(jsonFile));
             gson.toJson(JsonParser.parseString(jsonObject.toString()), writer);
             writer.flush();
