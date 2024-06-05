@@ -1,5 +1,6 @@
 package org.example;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class OasisQuestion {
@@ -38,7 +39,6 @@ public class OasisQuestion {
         itemUses = csvRow[7];
         itemSubsets = csvRow[8];
         assessmentResponseCodes = csvRow[9];
-        System.out.println(assessmentResponseCodes); //todo: delete when done
         responseText = csvRow[10];
         copyrightIndicator = csvRow[11];
     }
@@ -67,14 +67,24 @@ public class OasisQuestion {
         }
         else {
             item.put("type", ItemType.choice);
+
+            //for items of type "choice" add answerOption, an array of possible answers
+            String[] answerCodes = assessmentResponseCodes.split("\\|");
+            String[] answerDisplays = responseText.split("\\|");
+
+            JSONArray answerOptions = new JSONArray();
+            //note: I confirmed that answerCodes and answerDisplays have the same length for all questions in the OASIS-E csv file
+            for (int i = 0; i < answerCodes.length; i++) {
+                JSONObject answerOptionContainer = new JSONObject();
+                JSONObject valueCodingContainer = new JSONObject();
+                valueCodingContainer.put("system", "http://del.cms.gov");
+                valueCodingContainer.put("code", answerCodes[i]);
+                valueCodingContainer.put("display", answerDisplays[i]);
+                answerOptionContainer.put("valueCoding", valueCodingContainer);
+                answerOptions.put(answerOptionContainer);
+            }
+            item.put("answerOption", answerOptions);
         }
-
-
-
-
-
-        //todo: finish putting things
-
         return item;
     }
 
