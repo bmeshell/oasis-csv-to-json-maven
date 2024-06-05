@@ -53,6 +53,21 @@ public class OasisQuestion {
         item.put("repeats", false); //todo: for now assumed repeats is always false. Find out whether this is correct.
 
         //parse assessmentResponseCodes to get type
+        if (assessmentResponseCodes.equals("")) {
+            item.put("type", ItemType.group);
+        }
+        else if (assessmentResponseCodes.toUpperCase().contains("TEXT")) {
+            item.put("type", ItemType.text);
+        }
+        else if (assessmentResponseCodes.toUpperCase().contains("MMDDYYYY")) {
+            item.put("type", ItemType.date);
+        }
+        else if (responseText.toLowerCase().contains("minimum value|maximum value")) {
+            item.put("type", ItemType.integer); //todo: what about questions that can be answered with an integer or "N/A", "unable to complete", etc. Example BIMS summary score C0500
+        }
+        else {
+            item.put("type", ItemType.choice);
+        }
 
 
 
