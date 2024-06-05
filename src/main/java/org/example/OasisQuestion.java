@@ -38,7 +38,7 @@ public class OasisQuestion {
     public JSONObject toItem() {
         JSONObject item = new JSONObject();
 
-        item.put("linkId", itemID);
+        item.put("prefix", itemID);
         item.put("text", questionText);
         //todo: finish putting things
 
