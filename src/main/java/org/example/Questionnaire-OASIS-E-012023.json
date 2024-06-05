@@ -1,5 +1,5 @@
 {
-  "date": "2018-04-30T20:51:52.871Z",
+  "date": "2023-01-01T00:00:00+00:00",
   "identifier": [
     {
       "system": "http://del.cms.gov",
@@ -17101,24 +17101,24 @@
       ]
     }
   ],
-  "approvalDate": "2019-04-05",
+  "approvalDate": "2022-12-06",
   "code": [
     {
       "system": "http://loinc.org",
-      "code": "93055-2",
-      "display": "Outcome and assessment information set (OASIS) form - version D1"
+      "code": "99131-5",
+      "display": "Outcome and assessment information set (OASIS) form - version E - Start of Care during assessment period [CMS Assessment]"
     }
   ],
   "effectivePeriod": {
-    "start": "2020-01-01T00:00:00+00:00"
+    "start": "2023-01-01T00:00:00+00:00"
   },
   "description": "Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.",
-  "title": "Outcome and Assessment Information Set - Death at Home",
-  "version": "D1-012020",
-  "url": "http://hapi.fhir.org/baseR4/Questionnaire/OASIS-DAH-D1-012020",
+  "title": "Outcome and Assessment Information Set",
+  "version": "E-012023",
+  "url": "http://hapi.fhir.org/baseR4/Questionnaire/OASIS-E-012023",
   "meta": {
-    "lastUpdated": "2021-02-17T23:17:56.866+00:00",
-    "versionId": "18",
+    "lastUpdated": "2022-12-06T00:00:00+00:00",
+    "versionId": "1",
     "profile": [
       "http://hapi.fhir.org/StructureDefinition/del-StandardForm"
     ],
@@ -17126,9 +17126,9 @@
   },
   "name": "OASIS_DAH",
   "publisher": "Division of Chronic and Post Acute Care",
-  "id": "OASIS-DAH-D1-012020",
+  "id": "OASIS-E-012023",
   "text": {
-    "div": "\u003cdiv xmlns\u003d\\\"http://www.w3.org/1999/xhtml\\\"\u003eOASIS_DAH standard form version D1-012020.\u003cbr/\u003e\u003cbr/\u003eData set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.\u003c/div\u003e\"",
+    "div": "\u003cdiv xmlns\u003d\\\"http://www.w3.org/1999/xhtml\\\"\u003eOASIS standard form version E-012023.\u003cbr/\u003e\u003cbr/\u003eData set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.\u003c/div\u003e\"",
     "status": "generated"
   },
   "resourceType": "Questionnaire",

@@ -38,9 +38,9 @@ public class OasisCsvToJsonConverter {
 
         //meta
         JSONObject meta = new JSONObject();
-        meta.put("versionId","18");
-        meta.put("lastUpdated","2021-02-17T23:17:56.866+00:00");
-        meta.put("source","#EgeCkgLf791gePmW");
+        meta.put("versionId","1");
+        meta.put("lastUpdated","2022-12-06T00:00:00+00:00");
+        meta.put("source","#EgeCkgLf791gePmW"); //todo: what to put here?
         String[] profile = new String[1];
         profile[0] = "http://hapi.fhir.org/StructureDefinition/del-StandardForm";
         meta.put("profile", profile);
@@ -48,7 +48,7 @@ public class OasisCsvToJsonConverter {
         //text
         JSONObject text = new JSONObject();
         text.put("status","generated");
-        text.put("div","<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\">OASIS_DAH standard form version D1-012020.<br/><br/>Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.</div>\"");
+        text.put("div","<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\">OASIS standard form version E-012023.<br/><br/>Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.</div>\"");
 
         //identifier
         JSONArray identifier = new JSONArray();
@@ -60,34 +60,34 @@ public class OasisCsvToJsonConverter {
 
         //effectivePeriod
         JSONObject effectivePeriod = new JSONObject();
-        effectivePeriod.put("start", "2020-01-01T00:00:00+00:00");
+        effectivePeriod.put("start", "2023-01-01T00:00:00+00:00");
 
         //code
         JSONArray code = new JSONArray();
         JSONObject code0 = new JSONObject();
         code0.put("system","http://loinc.org");
-        code0.put("code","93055-2");
-        code0.put("display","Outcome and assessment information set (OASIS) form - version D1");
+        code0.put("code","99131-5");
+        code0.put("display","Outcome and assessment information set (OASIS) form - version E - Start of Care during assessment period [CMS Assessment]");
         code.put(code0);
 
         //shellOasisQuestionnaire
         shellOasisQuestionnaire.put("resourceType", "Questionnaire");
-        shellOasisQuestionnaire.put("id", "OASIS-DAH-D1-012020");
+        shellOasisQuestionnaire.put("id", "OASIS-E-012023");
         shellOasisQuestionnaire.put("meta", meta);
         shellOasisQuestionnaire.put("text", text);
 
-        shellOasisQuestionnaire.put("url", "http://hapi.fhir.org/baseR4/Questionnaire/OASIS-DAH-D1-012020");
+        shellOasisQuestionnaire.put("url", "http://hapi.fhir.org/baseR4/Questionnaire/OASIS-E-012023");
         shellOasisQuestionnaire.put("identifier", identifier);
-        shellOasisQuestionnaire.put("version", "D1-012020");
+        shellOasisQuestionnaire.put("version", "E-012023");
         shellOasisQuestionnaire.put("name", "OASIS_DAH");
 
-        shellOasisQuestionnaire.put("title", "Outcome and Assessment Information Set - Death at Home");
+        shellOasisQuestionnaire.put("title", "Outcome and Assessment Information Set");
         shellOasisQuestionnaire.put("status", "active");
-        shellOasisQuestionnaire.put("date", "2018-04-30T20:51:52.871Z");
+        shellOasisQuestionnaire.put("date", "2023-01-01T00:00:00+00:00"); //todo: get correct date
         shellOasisQuestionnaire.put("publisher", "Division of Chronic and Post Acute Care");
 
         shellOasisQuestionnaire.put("description", "Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.");
-        shellOasisQuestionnaire.put("approvalDate", "2019-04-05");
+        shellOasisQuestionnaire.put("approvalDate", "2022-12-06");
         shellOasisQuestionnaire.put("effectivePeriod", effectivePeriod);
         shellOasisQuestionnaire.put("code", code);
 
