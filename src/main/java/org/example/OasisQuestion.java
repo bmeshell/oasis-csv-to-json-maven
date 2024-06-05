@@ -17,29 +17,47 @@ public class OasisQuestion {
     private String responseText;
     private String copyrightIndicator;
 
+    //todo: capitalize enum values?
+    private enum ItemType {
+        group,
+        choice,
+        text,
+        date,
+        integer
+    }
+
     public OasisQuestion(String[] csvRow) {
         //todo: currently assumes an array of exactly 12 Strings. Make more flexible and/or add error handling
-        for (int i = 0; i < 12; i++) {
-            assessmentInstrument = csvRow[0];
-            assessmentInstrumentVersion = csvRow[1];
-            itemID = csvRow[2];
-            questionText = csvRow[3];
-            sectionName = csvRow[4];
-            skipPatternTrigger = csvRow[5];
-            lookbackPeriod = csvRow[6];
-            itemUses = csvRow[7];
-            itemSubsets = csvRow[8];
-            assessmentResponseCodes = csvRow[9];
-            responseText = csvRow[10];
-            copyrightIndicator = csvRow[11];
-        }
+        assessmentInstrument = csvRow[0];
+        assessmentInstrumentVersion = csvRow[1];
+        itemID = csvRow[2];
+        questionText = csvRow[3];
+        sectionName = csvRow[4];
+        skipPatternTrigger = csvRow[5];
+        lookbackPeriod = csvRow[6];
+        itemUses = csvRow[7];
+        itemSubsets = csvRow[8];
+        assessmentResponseCodes = csvRow[9];
+        System.out.println(assessmentResponseCodes); //todo: delete when done
+        responseText = csvRow[10];
+        copyrightIndicator = csvRow[11];
     }
 
     public JSONObject toItem() {
         JSONObject item = new JSONObject();
 
+        item.put("linkId", (sectionName + "/" + itemID));
         item.put("prefix", itemID);
         item.put("text", questionText);
+        item.put("readOnly", false); //todo: assumed groups are read only, questions are not. Only care about questions, so set to false. Is this accurate?
+        item.put("repeats", false); //todo: for now assumed repeats is always false. Find out whether this is correct.
+
+        //parse assessmentResponseCodes to get type
+
+
+
+
+
         //todo: finish putting things
 
         return item;
